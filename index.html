@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-<script src="js/jquery2.2.4"></script>
-<script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/jquery2.2.4"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/unslider.js"></script>
+    <script src="js/typed.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unslider-dots.css">
+
 </head>
+
 <body>
-  <nav  class="navbar navbar-default navbar-fixed-top" id = "navbar">
-    <div class="container-fluid" >
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Brand</a>
-      </div>
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="#">Link</a></li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Link</a></li>
 
-          <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
-          <li><a href="#">Link</a></li>
-          <!-- <li class="dropdown">
+                    <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+                    <li><a href="#">Link</a></li>
+                    <!-- <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Action</a></li>
@@ -41,16 +47,16 @@
               <li><a href="#">One more separated link</a></li>
             </ul>
           </li> -->
-        </ul>
-        <!-- <form class="navbar-form navbar-left" role="search">
+                </ul>
+                <!-- <form class="navbar-form navbar-left" role="search">
           <div class="form-group">
             <input type="text" class="form-control" placeholder="Search">
           </div>
           <button type="submit" class="btn btn-default">Submit</button>
         </form> -->
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-          <!-- <li class="dropdown">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <!-- <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Action</a></li>
@@ -60,37 +66,111 @@
               <li><a href="#">Separated link</a></li>
             </ul>
           </li> -->
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-<div class="main0" >
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="content-background">
 
-</div>
-<!-- <div class="main-1" > -->
+    </div>
+    <!-- <div class="main-1" > -->
 
-<div class="main1" >
+    <div class="content-session-a">
 
-<div  class="row col-md-8 col-md-offset-2 main0contianer">
-<div class ="image_tag">
-    <img class = "self_image"src="http://www.qqya.com/qqyaimg/allimg/100529/1_100529165617_24.jpg" alt="">
-</div>
-<div style = "background: red" class="about_tag">
-  <h1 class="title"> Hello, I am Donn, here is my intorduction hk</h1>
-  </div>
-</div>
+        <div class="row col-md-8 col-md-offset-2 session-a-warp">
+            <div class="self_image_tag">
+                <img src="http://www.qqya.com/qqyaimg/allimg/100529/1_100529165617_24.jpg" alt="">
+
+            </div>
 
 
-</div>
-<div class="main2" >
-</div>
-<hr class="featurette-divider">
-<div class="main2" >
-</div>
-<hr class="featurette-divider">
-<div class="main2" >
-</div>
-<hr class="featurette-divider">
-  <script src="js/main.js"></script>
+            <div style="background:lightred" class="about_tag typeElement">
+                <h1><span id="typed"></span></h1>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div class="content-session-b">
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="content-section-c">
+
+        <div class="container">
+
+            <div class="row">
+                <!-- pull-right -->
+                <div class="col-sm-6  animation-element slide-left">
+                    <div id="slider" class="my-slider">
+                        <ul class="slides">
+                            <li><img class="img-responsive slide" src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt=""></li>
+                            <li><img class="img-responsive slide" src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt=""></li>
+                            <li><img class="img-responsive slide" src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 animation-element slide-right" data-animation-delay="200" style="visibility: visible;">
+                    <h3 class="section-heading">Full Responsive</h3>
+                    <div class="sub-title lead3 animate fadeIn">Lorem ipsum dolor sit atmet sit dolor greand fdanrh
+                        <br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                    <p class="lead">
+                        In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, uam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam
+                        magnum ac cognitione.
+                    </p>
+
+                    <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
+                        <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+
+    <div class="content-section-d">
+
+        <div class="container">
+
+            <div class="row">
+                <!-- pull-right -->
+                <div class="col-sm-6 pull-right animation-element slide-right ">
+                    <div id="slider2" class="my-slider">
+                        <ul class="slides">
+                            <li><img class="img-responsive slide" src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt=""></li>
+                            <li><img class="img-responsive slide" src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt=""></li>
+                            <li><img class="img-responsive slide" src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 animation-element slide-left" data-animation-delay="200" style="visibility: visible;">
+                    <h3 class="section-heading">Full Responsive</h3>
+                    <div class="sub-title lead3 animate fadeIn">Lorem ipsum dolor sit atmet sit dolor greand fdanrh
+                        <br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                    <p class="lead">
+                        In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, uam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam
+                        magnum ac cognitione.
+                    </p>
+
+                    <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
+                        <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+
+
+
+
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>

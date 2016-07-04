@@ -17,7 +17,7 @@ function check_if_in_view() {
         //check to see if this current container is within viewport
         if ((element_bottom_position >= window_top_position) &&
             (element_top_position <= window_bottom_position)) {
-            console.log('inview')
+            // console.log('inview')
             $element.addClass('in-view');
         } else {
             $element.removeClass('in-view');
@@ -27,6 +27,8 @@ function check_if_in_view() {
 jQuery(document).ready(function($) {
     $('#slider').unslider();
     $('#slider2').unslider();
+    $('#slider3').unslider();
+
 
 });
 

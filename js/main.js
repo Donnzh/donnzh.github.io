@@ -25,9 +25,20 @@ function check_if_in_view() {
     });
 }
 jQuery(document).ready(function($) {
-    $('#slider').unslider();
-    $('#slider2').unslider();
-    $('#slider3').unslider();
+    $('#slider').unslider({
+      autoplay: true,
+       keys: false
+});
+    $('#slider2').unslider({
+      autoplay: true,
+       keys: false
+
+
+});
+    $('#slider3').unslider({
+      autoplay: true,
+       keys: false
+});
 
 
 });

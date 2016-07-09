@@ -12,4 +12,10 @@ adding linin git hub,
 
 footer page.
 
-nav bar addjust
+//nav bar addjust
+
+jack's idea
+1. adding the thing that i would like to learn on the skill sessin
+
+2. adding animation from http://tympanus.net/Development/CreativeLinkEffects/
+http://tympanus.net/codrops/2013/06/13/creative-button-styles/

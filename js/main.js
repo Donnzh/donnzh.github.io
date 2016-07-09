@@ -25,7 +25,7 @@ function check_if_in_view() {
     });
 }
 jQuery(document).ready(function($) {
-    $('#slider').unslider({
+    $('#slider1').unslider({
       autoplay: true,
        keys: false
 });
@@ -38,6 +38,10 @@ jQuery(document).ready(function($) {
     $('#slider3').unslider({
       autoplay: true,
        keys: false
+});
+$('#slider4').unslider({
+  autoplay: true,
+   keys: false
 });
 
 

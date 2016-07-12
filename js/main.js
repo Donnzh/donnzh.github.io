@@ -1,4 +1,5 @@
 var $animation_elements = $('.animation-element');
+// var $animation_navbar = $('')
 var $window = $(window);
 $window.on('scroll', check_if_in_view);
 $window.trigger('scroll');
@@ -20,27 +21,27 @@ function check_if_in_view() {
             // console.log('inview')
             $element.addClass('in-view');
         } else {
-            $element.removeClass('in-view');
+            // $element.removeClass('in-view');
         }
     });
 }
 jQuery(document).ready(function($) {
     $('#slider1').unslider({
-      autoplay: true,
+      // autoplay: true,
        keys: false
 });
     $('#slider2').unslider({
-      autoplay: true,
+      // autoplay: true,
        keys: false
 
 
 });
     $('#slider3').unslider({
-      autoplay: true,
+      // autoplay: true,
        keys: false
 });
 $('#slider4').unslider({
-  autoplay: true,
+  // autoplay: true,
    keys: false
 });
 
@@ -49,8 +50,8 @@ $('#slider4').unslider({
 
 $(function() {
     $("#typed").typed({
-        strings: [" Hi! I am Donn, <br> <h4> <br>a Sydney based full-stack <span>web developer,<span></h4> <h4> passiniate in coding and love technologies.</h4>" ],
-        typeSpeed: 0,
+        strings: [" Hi, I'm Donn. <br> <span style='font-size:30px;'> I'm a full-stack web developer living in Sydney.<span> " ],
+        typeSpeed: -5,
         showCursor: false
     });
 
@@ -59,10 +60,11 @@ $(function() {
     //   display:"inline"
     // })
 
-    $(".fadeIntext").css('visibility','visible').hide().fadeIn(2000)
-  },4000);
+    $(".fadeIntext").css('visibility','visible').hide().fadeIn(1500)
+  },1000);
 
 });
+new WOW().init();
 
 // $(function(){
 //

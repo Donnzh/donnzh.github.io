@@ -19,3 +19,13 @@ jack's idea
 
 2. adding animation from http://tympanus.net/Development/CreativeLinkEffects/
 http://tympanus.net/codrops/2013/06/13/creative-button-styles/
+
+
+
+sleepy-atoll-73108.herokuapp.com
+
+This is the second project during GA.
+
+It aim to build a multi-CRUD web application that enable user to track their symptoms and daily routes.
+
+Techniques: Ruby on Rails, JavaScript (jQuery), HTML5, CSS3 (Bootstrap), PostgreSQL

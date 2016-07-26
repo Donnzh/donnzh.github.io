@@ -9,7 +9,7 @@ html, body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-#navbar {
+#navbar, .active {
     background-color: transparent;
     ;
     /*border-top: 3px solid orange;*/

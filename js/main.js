@@ -21,6 +21,7 @@ function check_if_in_view() {
             // console.log('inview')
             $element.addClass('in-view');
         } else {
+          // deleted the class to make the slider again
         }
     });
 }
@@ -51,6 +52,7 @@ $(function() {
     }, 500);
     return false;
   });
+  //scroll to top (not set yet)
   $('.scrollTop a').scrollTop();
 
 // slider picture
